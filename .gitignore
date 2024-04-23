@@ -1,0 +1,12 @@
+docker-compose.yml
+ssh
+```
+__pycache__
+venv
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.idea
+demo

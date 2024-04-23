@@ -1,0 +1,8 @@
+# Inventory template reproducing Ansible behavior
+hosts:
+    webserver:
+        ssh_address: # Insert your distant host IP
+        ssh_port: # Insert your SSH port
+    bastion:
+        ssh_address: # Insert your distant host IP
+        ssh_port: # Insert your SSH port

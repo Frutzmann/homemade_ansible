@@ -1,0 +1,21 @@
+# To Do template reproducing the todos of Ansible
+- module: apt
+  params:
+    name: nginx-common
+    state: present
+
+- module: copy
+  params:
+    src: ./public
+    dest: /var/www/public
+    backup: true
+
+- module: service
+  params:
+    name: nginx
+    state: started
+
+- module: service
+  params:
+    name: nginx
+    state: enabled
